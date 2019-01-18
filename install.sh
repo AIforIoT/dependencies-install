@@ -18,8 +18,8 @@ apt-get install libasound2-dev -y
 
 # Artificial inteligence package
 git clone https://github.com/aiforiot/artificial_inteligence.git
-pip3 install -r artificial_intelligence/requeriments.txt -y
-pip3 install -r local_keyword_detection/requeriments.txt -y
+pip3 install -r artificial_intelligence/requirements.txt -y
+pip3 install -r local_keyword_detection/requirements.txt -y
 
 #Raspberry setup for AP https://www.raspberrypi.org/documentation/configuration/wireless/access-point.md
 sudo apt update
